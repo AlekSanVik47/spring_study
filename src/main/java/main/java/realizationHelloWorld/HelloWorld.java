@@ -1,4 +1,4 @@
-package main.java;
+package main.java.realizationHelloWorld;
 
 public class HelloWorld {
     public static void main(String[] args) {

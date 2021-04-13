@@ -1,4 +1,4 @@
-package main.java;
+package main.java.realizationHelloWorld;
 
 import main.java.config.HelloWorldConfiguration;
 import org.springframework.context.ApplicationContext;

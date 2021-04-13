@@ -1,4 +1,4 @@
-package main.java;
+package main.java.realizationHelloWorld;
 
 public class HelloWorldMessageProvider implements MessageProvider {
     @Override

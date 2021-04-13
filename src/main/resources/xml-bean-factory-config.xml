@@ -4,12 +4,5 @@
        xsi:schemaLocation="
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="provider" class="main.java.realizationHelloWorld.HelloWorldMessageProvider">
-    </bean>
-    <bean id="renderer" class="main.java.realizationHelloWorld.StandardOutMessageRenderer" />
+    <bean id="oracle" name="wiseworm" class="main.java.realizationBeanFactory.BookwormOracle"/>
 </beans>
-
-
-
-

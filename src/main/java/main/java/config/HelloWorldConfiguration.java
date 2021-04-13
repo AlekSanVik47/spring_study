@@ -1,9 +1,9 @@
 package main.java.config;
 
-import main.java.HelloWorldMessageProvider;
-import main.java.MessageProvider;
-import main.java.MessageRenderer;
-import main.java.StandardOutMessageRenderer;
+import main.java.realizationHelloWorld.HelloWorldMessageProvider;
+import main.java.realizationHelloWorld.MessageProvider;
+import main.java.realizationHelloWorld.MessageRenderer;
+import main.java.realizationHelloWorld.StandardOutMessageRenderer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
