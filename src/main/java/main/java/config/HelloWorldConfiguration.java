@@ -1,14 +1,19 @@
 package main.java.config;
 
-import main.java.realizationHelloWorld.HelloWorldMessageProvider;
+import main.java.annotention.HelloWorldMessageProvider;
 import main.java.realizationHelloWorld.MessageProvider;
 import main.java.realizationHelloWorld.MessageRenderer;
-import main.java.realizationHelloWorld.StandardOutMessageRenderer;
+import main.java.annotention.StandardOutMessageRenderer;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 
+@ComponentScan(basePackages = {"main.java.annotention"})
+@ImportResource(locations = {"classpath:main.resources/app-context-xml.xml"})
 @Configuration
 public class HelloWorldConfiguration {
+
     @Bean
     public MessageProvider provider(){
         return new HelloWorldMessageProvider();

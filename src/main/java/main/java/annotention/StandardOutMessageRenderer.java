@@ -1,5 +1,11 @@
-package main.java.realizationHelloWorld;
+package main.java.annotention;
 
+import main.java.realizationHelloWorld.MessageProvider;
+import main.java.realizationHelloWorld.MessageRenderer;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service("renderer")
 public class StandardOutMessageRenderer implements MessageRenderer {
     private MessageProvider messageProvider;
 
@@ -17,6 +23,7 @@ public class StandardOutMessageRenderer implements MessageRenderer {
     }
 
     @Override
+    @Autowired
     public void setMessageProvider(MessageProvider provider) {
         this.messageProvider = provider;
     }
