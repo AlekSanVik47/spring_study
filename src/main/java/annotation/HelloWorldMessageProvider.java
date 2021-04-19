@@ -1,7 +1,7 @@
-package main.java.annotention;
+package annotation;
 
-import main.java.realizationHelloWorld.MessageProvider;
 import org.springframework.stereotype.Component;
+import realizationHelloWorld.MessageProvider;
 
 @Component("provider")
 public class HelloWorldMessageProvider implements MessageProvider {

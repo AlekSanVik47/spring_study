@@ -1,7 +1,7 @@
-package main.java.realizationHelloWorld;
+package realizationHelloWorld;
 
-import main.java.annotention.HelloWorldMessageProvider;
-import main.java.annotention.StandardOutMessageRenderer;
+import annotation.HelloWorldMessageProvider;
+import annotation.StandardOutMessageRenderer;
 
 public class HelloWorldDecoupled {
     public static void main(String[] args) {

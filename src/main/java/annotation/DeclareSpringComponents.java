@@ -1,12 +1,12 @@
-package main.java.annotention;
+package annotation;
 
-import main.java.realizationHelloWorld.MessageProvider;
 import org.springframework.context.support.GenericXmlApplicationContext;
+import realizationHelloWorld.MessageProvider;
 
 public class DeclareSpringComponents {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
-        ctx.load("classpath:src/main/resources/app-context-annotation. xml");
+        ctx.load("classpath:resources/app-context.xml");
         ctx.refresh();
         MessageProvider messageProvider = ctx.getBean("provider", MessageProvider.class);
         System.out.println(messageProvider.getMessage());

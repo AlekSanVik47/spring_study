@@ -1,4 +1,4 @@
-package main.java.realizationBeanFactory;
+package realizationBeanFactory;
 
 public interface Oracle {
     String defineMeaningOfLife();

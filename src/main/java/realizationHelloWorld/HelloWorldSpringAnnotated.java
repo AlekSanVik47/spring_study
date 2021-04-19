@@ -1,6 +1,6 @@
-package main.java.realizationHelloWorld;
+package realizationHelloWorld;
 
-import main.java.config.HelloWorldConfiguration;
+import config.HelloWorldConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

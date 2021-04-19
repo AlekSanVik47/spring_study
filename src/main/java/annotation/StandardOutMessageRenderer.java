@@ -1,9 +1,9 @@
-package main.java.annotention;
+package annotation;
 
-import main.java.realizationHelloWorld.MessageProvider;
-import main.java.realizationHelloWorld.MessageRenderer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import realizationHelloWorld.MessageProvider;
+import realizationHelloWorld.MessageRenderer;
 
 @Service("renderer")
 public class StandardOutMessageRenderer implements MessageRenderer {

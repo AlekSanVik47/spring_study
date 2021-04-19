@@ -1,7 +1,7 @@
-package main.java.msf;
+package msf;
 
-import main.java.realizationHelloWorld.MessageProvider;
-import main.java.realizationHelloWorld.MessageRenderer;
+import realizationHelloWorld.MessageProvider;
+import realizationHelloWorld.MessageRenderer;
 
 import java.util.Properties;
 

@@ -1,4 +1,4 @@
-package main.java.realizationHelloWorld;
+package realizationHelloWorld;
 
 public interface MessageProvider {
     String getMessage();

@@ -1,6 +1,6 @@
-package main.java.realizationBeanFactory;
+package realizationBeanFactory;
 
-public class BookwormOracle implements Oracle{
+public class BookwormOracle implements Oracle {
     private Encyclopedia encyclopedia;
 
     public void setEncyclopedia(Encyclopedia encyclopedia) {

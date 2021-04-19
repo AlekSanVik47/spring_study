@@ -6,9 +6,9 @@
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="provider" class="main.java.annotention.HelloWorldMessageProvider">
+    <bean id="provider" class="main.java.annotation.HelloWorldMessageProvider">
     </bean>
-    <bean id="renderer" class="main.java.annotention.StandardOutMessageRenderer">
+    <bean id="renderer" class="main.java.annotation.StandardOutMessageRenderer">
         <property name="messageProvider" ref="provaider"/>
             </bean>
 </beans>
